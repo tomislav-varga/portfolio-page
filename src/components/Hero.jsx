@@ -23,5 +23,5 @@ const Hero = () => {
     </div>
   );
 };
-{/* <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center min-h-screen py-6"><img src="public/IMG_1387.jpg" alt="Tomi" class="w-48 h-48 rounded-full mb-8 object-cover"><h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">Hi, I'm <span class="text-indigo-600">Tomi</span></h1><p class="mt-6 text-xl max-w-3xl text-center">I'm a passionate web developer creating amazing digital experiences.</p><div class="mt-10"><a href="#contact" class="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">Get in touch</a></div></div>
- */}export default Hero;
+
+export default Hero;
