@@ -6,10 +6,10 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center min-h-screen py-6 pt-60">
         <img src="IMG_1387.jpg" alt="Tomi" className="w-48 h-48 rounded-full mb-8 object-cover" />
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
-          Hi, I'm <span className="text-indigo-600">Tomi</span>
+          Hi, I&apos;m <span className="text-indigo-600">Tomi</span>
         </h1>
         <p className="mt-6 text-xl max-w-3xl text-center">
-          I'm a passionate web developer creating amazing digital experiences.
+          I&apos;m a passionate web developer creating amazing digital experiences.
         </p>
         <div className="mt-10">
           <a
