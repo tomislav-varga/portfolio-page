@@ -9,7 +9,7 @@ const Hero = () => {
           Hi, I&apos;m <span className="text-indigo-600">Tomi</span>
         </h1>
         <p className="mt-6 text-xl max-w-3xl text-center">
-          I&apos;m a passionate web developer creating amazing digital experiences.
+          I&apos;m a passionate full-stack web developer who loves bringing ideas to life through clean code and intuitive design—both on the frontend and backend.
         </p>
         <div className="mt-10">
           <a
