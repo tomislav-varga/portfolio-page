@@ -2,8 +2,21 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className="bg-gray-900 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center min-h-screen py-6 pt-60">
+    <div className="bg-gray-900 text-white relative">
+      {/* Background image with overlay */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center z-0"
+        style={{ 
+          backgroundImage: 'url("/growtika-9WnjxT1NCoY-unsplash.jpg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        {/* Dark overlay for better text readability */}
+        <div className="absolute inset-0 bg-black opacity-70"></div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center min-h-screen py-6 pt-60 relative z-10">
         <img src="IMG_1387.jpg" alt="Tomi" className="w-48 h-48 rounded-full mb-8 object-cover" />
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl md:text-6xl">
           Hi, I&apos;m <span className="text-indigo-600">Tomi</span>
