@@ -2,10 +2,16 @@ import React, { useState } from 'react';
 
 const projects = [
   {
-    title: 'Phonebook',
-    description: 'A brief description of Project 1',
+    title: 'Final Project of Coding Bootcamp',
+    description: 'A brief description of Project 3',
     imageUrl: 'https://via.placeholder.com/300x200',
     link: '#',
+  },
+  {
+    title: 'Phonebook',
+    description: 'A full-stack MERN application for managing contacts. Features include CRUD operations, responsive design with Tailwind CSS, and deployment on a VPS with Nginx and PM2.',
+    imageUrl: 'iScreen Shoter - Google Chrome - 250302151601.jpg',
+    link: 'https://github.com/TommiNICE/phonebook-production',
   },
   {
     title: 'Portfolio Site',
@@ -18,13 +24,7 @@ const projects = [
     description: 'A brief description of Project 3',
     imageUrl: 'https://via.placeholder.com/300x200',
     link: '#',
-  },
-  {
-    title: 'Final Project of Coding Bootcamp',
-    description: 'A brief description of Project 3',
-    imageUrl: 'https://via.placeholder.com/300x200',
-    link: '#',
-  },
+  }
 ];
 
 const Portfolio = () => {
@@ -65,7 +65,7 @@ const Portfolio = () => {
                         {project.description}
                       </p>
                       <div className="mt-4">
-                        <a href={project.link} className="text-indigo-600 hover:text-indigo-500">
+                        <a href={project.link} target="_blank" className="text-indigo-600 hover:text-indigo-500">
                           View Project <span aria-hidden="true">&rarr;</span>
                         </a>
                       </div>
