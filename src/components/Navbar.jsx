@@ -9,7 +9,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-white text-lg font-bold">YourName</span>
+              <span className="text-white text-lg font-bold font-space">
+                <span className="text-indigo-400">code</span>crafter
+              </span>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
