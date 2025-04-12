@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 
 const projects = [
   {
-    title: 'Final Project of Coding Bootcamp',
-    description: 'A brief description of Project 3',
-    imageUrl: 'https://via.placeholder.com/300x200',
-    link: '#',
+    title: 'Final Bootcamp Project – MERN App for Sustainable Eating',
+    description: 'A MERN stack web app built by a cross-functional team of 8 bootcamp participants from web development, AI, and data science tracks, enabling users to log plant-based meals and track their environmental impact, with a backend I developed featuring user authentication and RESTful APIs.',
+    imageUrl: 'iScreen Shoter - Google Chrome - 250412163857.jpg',
+    link: 'https://github.com/tomislav-varga/WS24-MyDailyImpact',
   },
   {
     title: 'Phonebook',
