@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#1f2937" />
+  <text x="50%" y="50%" text-anchor="middle" dy=".35em" font-size="28" font-family="Courier New, monospace">
+    <tspan fill="#818cf8">C</tspan><tspan fill="white">C</tspan>
+  </text>
+</svg>
